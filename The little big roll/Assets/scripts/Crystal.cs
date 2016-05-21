@@ -1,10 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class Crystal : MonoBehaviour 
 {
     public GameObject particle;
-
+    
     void OnTriggerEnter(Collider collider)
     {
         if (collider.gameObject.name != "ball")
@@ -18,10 +19,10 @@ public class Crystal : MonoBehaviour
 
         if (leaveCrystals() == 1)
         {
-            string levelName = Application.loadedLevelName;
+            string levelName = SceneManager.GetActiveScene().name;
             PlayerPrefs.SetInt(levelName+"_finished", 1);
 
-            Application.LoadLevel("The little big ball");
+            SceneManager.LoadScene("The little big ball");
         }
         else
         {

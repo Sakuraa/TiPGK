@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class LevelItem : MonoBehaviour
 {
@@ -19,6 +20,6 @@ public class LevelItem : MonoBehaviour
 
     void OnMouseDown()
     {
-        Application.LoadLevel(levelName);
+        SceneManager.LoadScene(levelName);
     }
 }

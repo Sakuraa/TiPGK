@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class GameOverTrigger : MonoBehaviour 
 {
@@ -7,8 +8,8 @@ public class GameOverTrigger : MonoBehaviour
     {
         if (collider.gameObject.name == "ball")
         {
-            string levelName = Application.loadedLevelName;
-            Application.LoadLevel(levelName);
+            string levelName = SceneManager.GetActiveScene().name;
+            SceneManager.LoadScene(levelName);
         }
     }
 }

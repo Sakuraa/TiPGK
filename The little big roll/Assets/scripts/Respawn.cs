@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class Respawn : MonoBehaviour 
 {
@@ -25,7 +26,7 @@ public class Respawn : MonoBehaviour
 
         Light light = GameObject.Instantiate(lightPrefab).GetComponent<Light>();
         GameObject.Instantiate(gameOverTerrain);
-        GameObject.Instantiate(levelName, transform.position + Vector3.forward*3f, Quaternion.identity);
+       // GameObject.Instantiate(levelName, transform.position + Vector3.forward*3f, Quaternion.identity);
 
         light.color = Color.white;
         light.intensity = 0.5f;
@@ -37,7 +38,7 @@ public class Respawn : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Escape))
         {
-            Application.LoadLevel("The little big ball");
+           SceneManager.LoadScene("The little big ball");
         }
     }
 }

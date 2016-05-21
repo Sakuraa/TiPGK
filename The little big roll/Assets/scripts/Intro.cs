@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class Intro : MonoBehaviour
 {
 	IEnumerator Start ()
     {
         yield return new WaitForSeconds(2.5f);
-        Application.LoadLevel("The little big ball");
+        SceneManager.LoadScene("The little big ball");
 	}
 }
