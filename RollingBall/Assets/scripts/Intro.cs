@@ -8,6 +8,6 @@ public class Intro : MonoBehaviour
     {
         yield return new WaitForSeconds(2.5f);
         //SceneManager.LoadScene("The little big ball");
-        SceneManager.LoadScene("LEVEL 1");
+        SceneManager.LoadScene("Menu");
 	}
 }

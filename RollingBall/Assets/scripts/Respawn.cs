@@ -38,7 +38,7 @@ public class Respawn : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Escape))
         {
-           SceneManager.LoadScene("The little big ball");
+           SceneManager.LoadScene("Menu");
         }
     }
 }

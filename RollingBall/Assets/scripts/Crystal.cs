@@ -22,7 +22,7 @@ public class Crystal : MonoBehaviour
             string levelName = SceneManager.GetActiveScene().name;
             PlayerPrefs.SetInt(levelName+"_finished", 1);
 
-            SceneManager.LoadScene("The little big ball");
+            SceneManager.LoadScene("Menu");
         }
         else
         {

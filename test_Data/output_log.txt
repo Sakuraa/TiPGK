@@ -1,0 +1,74 @@
+Mono path[0] = 'F:/c3p0/studia/Grafika/teoria gier komp/projekt/test_Data/Managed'
+Mono path[1] = 'F:/c3p0/studia/Grafika/teoria gier komp/projekt/test_Data/Mono'
+Mono config path = 'F:/c3p0/studia/Grafika/teoria gier komp/projekt/test_Data/Mono/etc'
+PlayerConnection initialized from F:/c3p0/studia/Grafika/teoria gier komp/projekt/test_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55359
+Multi-casting "[IP] 192.168.254.1 [Port] 55359 [Flags] 2 [Guid] 4007078773 [EditorId] 4254808734 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-O5112TO) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [192.168.254.1:55359]
+Initialize engine version: 5.3.4f1 (fdbb5133b820)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 860M   (ID=0x1392)
+    Vendor:   NVIDIA
+    VRAM:     1995 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: F:\c3p0\studia\Grafika\teoria gier komp\projekt\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading F:\c3p0\studia\Grafika\teoria gier komp\projekt\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: F:\c3p0\studia\Grafika\teoria gier komp\projekt\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading F:\c3p0\studia\Grafika\teoria gier komp\projekt\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: F:\c3p0\studia\Grafika\teoria gier komp\projekt\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading F:\c3p0\studia\Grafika\teoria gier komp\projekt\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: F:\c3p0\studia\Grafika\teoria gier komp\projekt\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading F:\c3p0\studia\Grafika\teoria gier komp\projekt\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.207 seconds
+Platform assembly: F:\c3p0\studia\Grafika\teoria gier komp\projekt\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: F:\c3p0\studia\Grafika\teoria gier komp\projekt\test_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 4200x1125 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.611786 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 660 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.429607 ms
+System memory in use before: 16.2 MB.
+System memory in use after: 16.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 218.
+Total: 0.298012 ms (FindLiveObjects: 0.025659 ms CreateObjectMapping: 0.019794 ms MarkObjects: 0.116932 ms  DeleteObjects: 0.126096 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.478359 ms
+System memory in use before: 16.6 MB.
+System memory in use after: 16.7 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 657.
+Total: 1.150262 ms (FindLiveObjects: 0.304243 ms CreateObjectMapping: 0.169716 ms MarkObjects: 0.607021 ms  DeleteObjects: 0.061215 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.752545 ms
+System memory in use before: 16.5 MB.
+System memory in use after: 16.4 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 222.
+Total: 1.013168 ms (FindLiveObjects: 0.162019 ms CreateObjectMapping: 0.080276 ms MarkObjects: 0.224334 ms  DeleteObjects: 0.536642 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.638491 ms
+System memory in use before: 16.7 MB.
+System memory in use after: 16.7 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 659.
+Total: 0.912365 ms (FindLiveObjects: 0.141858 ms CreateObjectMapping: 0.100803 ms MarkObjects: 0.616918 ms  DeleteObjects: 0.048752 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.764275 ms
+System memory in use before: 16.5 MB.
+System memory in use after: 16.4 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 222.
+Total: 0.313041 ms (FindLiveObjects: 0.023826 ms CreateObjectMapping: 0.013196 ms MarkObjects: 0.075877 ms  DeleteObjects: 0.198674 ms)
+
