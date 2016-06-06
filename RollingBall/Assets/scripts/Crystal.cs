@@ -16,19 +16,8 @@ public class Crystal : MonoBehaviour
         int points = PlayerPrefs.GetInt("points");
         points += 1;
         PlayerPrefs.SetInt("points", points);
-
-        if (leaveCrystals() == 1)
-        {
-            string levelName = SceneManager.GetActiveScene().name;
-            PlayerPrefs.SetInt(levelName+"_finished", 1);
-
-            SceneManager.LoadScene("Menu");
-        }
-        else
-        {
-            GameObject.Instantiate(particle, transform.position, Quaternion.identity);
-            Destroy(gameObject);
-        }
+        GameObject.Instantiate(particle, transform.position, Quaternion.identity);
+        Destroy(gameObject);
     }
 
     int leaveCrystals()
